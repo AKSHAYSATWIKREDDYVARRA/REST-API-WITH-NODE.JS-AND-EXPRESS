@@ -13,6 +13,7 @@ app.use('/users', userRoutes);
  
 app.get('/', (req, res) => {
     console.log('[RELODE CHESAV RA YADAVA]!');
+    
     res.send('Hello from vasiiiiiii meeeeeeeh.');
 });
 
